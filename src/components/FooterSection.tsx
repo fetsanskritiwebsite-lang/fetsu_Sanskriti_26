@@ -40,16 +40,6 @@ const FooterSection = () => {
                     </a>
                   </MagneticButton>
                 ))}
-                <MagneticButton>
-                  <a
-                    href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:a697d02d-ecfb-4cdd-b77b-22c2f2b7b8c9"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-4 px-6 py-3 border border-gold/30 text-gold hover:bg-gold hover:text-gold-foreground font-display tracking-widest uppercase rounded-full transition-all duration-300"
-                  >
-                    Event Brochure
-                  </a>
-                </MagneticButton>
               </div>
             </div>
 

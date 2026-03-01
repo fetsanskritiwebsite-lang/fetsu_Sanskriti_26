@@ -72,6 +72,23 @@ const EventsSection = () => {
           ))}
         </div>
 
+        <motion.div
+          className="mt-16 text-center"
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <a
+            href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:a697d02d-ecfb-4cdd-b77b-22c2f2b7b8c9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-4 border-2 border-gold/50 text-gold hover:bg-gold hover:text-gold-foreground font-display text-lg tracking-widest uppercase rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(255,215,0,0.2)] hover:shadow-[0_0_30px_rgba(255,215,0,0.4)]"
+          >
+            Event Brochure
+          </a>
+        </motion.div>
+
       </motion.div>
     </section>
   );
