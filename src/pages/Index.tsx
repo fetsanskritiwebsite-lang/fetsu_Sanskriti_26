@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import CountdownSection from "@/components/CountdownSection";
 import TimelineSection from "@/components/TimelineSection";
+import BandLineupSection from "@/components/BandLineupSection";
 import EventsSection from "@/components/EventsSection";
 import EventsGrid from "@/components/EventsGrid";
 import FooterSection from "@/components/FooterSection";
@@ -14,6 +15,7 @@ const Index = () => {
       <AboutSection />
       <CountdownSection />
       <TimelineSection />
+      <BandLineupSection />
       <EventsSection />
       <EventsGrid />
       <FooterSection />

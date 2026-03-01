@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import sanskritiLogo from "@/assets/sanskriti-logo-hero.png";
+import sanskritiLogo from "@/assets/sanskriti-hero.svg";
 import gallery1 from "@/assets/gallery-1.webp";
 import gallery3 from "@/assets/gallery-3.webp";
 import gallery5 from "@/assets/gallery-5.webp";
@@ -83,7 +83,7 @@ const HeroSection = () => {
   const titleOpacity = useTransform(scrollYProgress, [0, 0.6, 1], [1, 1, 0]);
 
   return (
-    <section ref={sectionRef} className="relative h-[200vh]">
+    <section id="home" ref={sectionRef} className="relative h-[200vh]">
       <div className="sticky top-0 h-screen overflow-hidden bg-background">
         {floatingImages.map((img, i) => (
           <FloatingImage key={i} img={img} index={i} scrollYProgress={scrollYProgress} />
@@ -102,6 +102,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, scale: 0.7 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
+              loading="lazy"
             />
           </motion.div>
 

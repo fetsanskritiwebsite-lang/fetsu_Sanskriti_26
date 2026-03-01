@@ -12,12 +12,27 @@ const AdminLogin = ({ onLogin }: AdminLoginProps) => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === "admin" && password === "sanskriti2025") {
-      onLogin();
-    } else {
-      setError("Invalid credentials. Please try again.");
+    setIsLoading(true);
+    setError("");
+
+    try {
+      // Mock login since backend links are removed
+      setTimeout(() => {
+        if (username === "admin" && password === "admin") {
+          localStorage.setItem("adminToken", "mock-token");
+          onLogin();
+        } else {
+          setError("Invalid credentials. Please use admin/admin.");
+        }
+        setIsLoading(false);
+      }, 500);
+    } catch (err) {
+      setError("Error logging in.");
+      setIsLoading(false);
     }
   };
 
@@ -57,8 +72,8 @@ const AdminLogin = ({ onLogin }: AdminLoginProps) => {
             <p className="text-sm text-destructive">{error}</p>
           )}
 
-          <Button type="submit" className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
-            Sign In
+          <Button type="submit" disabled={isLoading} className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
+            {isLoading ? "Signing In..." : "Sign In"}
           </Button>
         </form>
       </div>
