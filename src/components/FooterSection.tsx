@@ -47,7 +47,7 @@ const FooterSection = () => {
               <PinContainer
                 title="Jadavpur Campus"
                 href="https://maps.google.com/?q=Jadavpur+University+188+Raja+SC+Mallick+Road+Kolkata+700032"
-                containerClassName="w-[20rem] h-[20rem]"
+                containerClassName="w-full max-w-[20rem] h-[20rem]"
                 imageUrl={jadavpurCampus}
               >
                 <div className="flex flex-col gap-2">
@@ -64,7 +64,7 @@ const FooterSection = () => {
               <PinContainer
                 title="Salt Lake Campus"
                 href="https://maps.google.com/?q=Jadavpur+University+Salt+Lake+Campus+Kolkata+700098"
-                containerClassName="w-[20rem] h-[20rem]"
+                containerClassName="w-full max-w-[20rem] h-[20rem]"
                 imageUrl={saltLakeCampus}
               >
                 <div className="flex flex-col gap-2">

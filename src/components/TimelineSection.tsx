@@ -109,7 +109,7 @@ const schedule = [
 
 const DayCard = ({ day, index }: { day: typeof schedule[0]; index: number }) => {
   return (
-    <div className="flex-shrink-0 w-[340px] md:w-[440px] h-[420px] md:h-[480px] relative group">
+    <div className="flex-shrink-0 w-[calc(100vw-3rem)] sm:w-[340px] md:w-[440px] h-[420px] md:h-[480px] relative group">
       <div className="relative h-full rounded-2xl overflow-hidden glass">
         <div className="absolute inset-0 opacity-20">
           <img

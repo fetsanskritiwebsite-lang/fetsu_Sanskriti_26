@@ -43,7 +43,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
   return (
     <div className="relative w-full">
       <div
-        className="flex w-full overflow-x-scroll overscroll-x-auto py-10 scroll-smooth [scrollbar-width:none]"
+        className="flex w-full overflow-x-scroll overscroll-x-auto py-10 scroll-smooth snap-x snap-mandatory [scrollbar-width:none]"
         ref={carouselRef}
         onScroll={checkScrollability}
       >
@@ -55,7 +55,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.08 }}
               key={index}
-              className="last:pr-[5%] md:last:pr-[33%]"
+              className="last:pr-[5%] md:last:pr-[33%] snap-center"
             >
               {item}
             </motion.div>
