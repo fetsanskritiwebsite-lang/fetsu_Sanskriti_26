@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
 import { events } from "@/data/events";
 import Navbar from "@/components/Navbar";
+import ContactSection from "@/components/ContactSection";
 import FooterSection from "@/components/FooterSection";
 
 const EventPage = () => {
@@ -104,7 +105,7 @@ const EventPage = () => {
                   Date
                 </h3>
                 <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
-                <div className="font-display text-sm md:text-base space-y-1 text-foreground/80">
+                <div className="font-body text-sm md:text-base space-y-1 text-foreground/80">
                   <p>Date : {event.dates.date}</p>
                   <p>Time : {event.dates.time}</p>
                   <p>Venue : {event.dates.venue}</p>
@@ -118,7 +119,7 @@ const EventPage = () => {
                       Prelims
                     </h3>
                     <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
-                    <div className="font-display text-sm md:text-base space-y-1 text-foreground/80">
+                    <div className="font-body text-sm md:text-base space-y-1 text-foreground/80">
                       <p>Date : {event.prelims.date}</p>
                       <p>Time : {event.prelims.time}</p>
                       <p>Venue : {event.prelims.venue}</p>
@@ -132,7 +133,7 @@ const EventPage = () => {
                       Finals
                     </h3>
                     <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
-                    <div className="font-display text-sm md:text-base space-y-1 text-foreground/80">
+                    <div className="font-body text-sm md:text-base space-y-1 text-foreground/80">
                       <p>Date : {event.finals.date}</p>
                       <p>Time : {event.finals.time}</p>
                       <p>Venue : {event.finals.venue}</p>
@@ -142,10 +143,10 @@ const EventPage = () => {
               </>
             )}
 
-            <p className="font-display text-sm md:text-base text-destructive font-bold tracking-wide">
+            <p className="font-body text-base md:text-lg text-destructive font-bold tracking-wide">
               Participants must reach 30 minutes prior to the event
             </p>
-            <p className="font-body text-xs text-foreground/40">
+            <p className="font-body text-sm md:text-base text-foreground/50">
               *On Spot Registrations To Be Done On The Day Of Event
             </p>
           </motion.div>
@@ -162,7 +163,7 @@ const EventPage = () => {
               </h2>
               <div className="space-y-2">
                 {event.coordinators.map((c, i) => (
-                  <p key={i} className="font-display text-sm md:text-base text-foreground/80">
+                  <p key={i} className="font-body text-sm md:text-base text-foreground/80">
                     {c.name} - {c.phone}
                   </p>
                 ))}
@@ -197,7 +198,6 @@ const EventPage = () => {
           </motion.div>
         </div>
       </div>
-
       <FooterSection />
     </div>
   );
