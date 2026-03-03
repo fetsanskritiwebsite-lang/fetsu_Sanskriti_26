@@ -31,8 +31,8 @@ const EventCard = ({ event, index }: { event: typeof events[0]; index: number })
           <p className="font-body text-[10px] md:text-sm text-foreground/60 tracking-widest uppercase mt-1 mb-3 md:mb-4">
             {event.subtitle}
           </p>
-          <span className="block w-full text-center font-display text-[11px] md:text-lg font-black tracking-wider md:tracking-widest uppercase whitespace-nowrap px-2 md:px-6 py-2 md:py-3 rounded-xl bg-gold/90 text-gold-foreground group-hover:bg-gold group-hover:shadow-[0_0_25px_hsl(var(--gold)/0.4)] transition-all duration-300">
-            Register Now
+          <span className="block w-full text-center font-display text-[11px] md:text-lg font-black tracking-wider md:tracking-widest uppercase whitespace-nowrap px-2 md:px-6 py-2 md:py-3 rounded-xl bg-transparent border-2 border-gold/50 text-gold group-hover:bg-gold group-hover:text-gold-foreground transition-all duration-300">
+            More Info →
           </span>
         </div>
       </Link>
@@ -57,7 +57,7 @@ const EventsSection = () => {
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
       >
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <span className="text-sm font-body tracking-[0.3em] uppercase text-gold mb-4 block">
             What Awaits
           </span>
@@ -66,21 +66,15 @@ const EventsSection = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-          {events.map((event, i) => (
-            <EventCard key={event.slug} event={event} index={i} />
-          ))}
-        </div>
-
         <motion.div
-          className="mt-16 text-center"
+          className="mb-16 text-center"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <a
-            href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:a697d02d-ecfb-4cdd-b77b-22c2f2b7b8c9"
+            href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:850bff03-6ad2-4cdf-8592-3a4dd34059da"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 border-2 border-gold/50 text-gold hover:bg-gold hover:text-gold-foreground font-display text-lg tracking-widest uppercase rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(255,215,0,0.2)] hover:shadow-[0_0_30px_rgba(255,215,0,0.4)]"
@@ -88,6 +82,12 @@ const EventsSection = () => {
             Event Brochure
           </a>
         </motion.div>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+          {events.map((event, i) => (
+            <EventCard key={event.slug} event={event} index={i} />
+          ))}
+        </div>
 
       </motion.div>
     </section>

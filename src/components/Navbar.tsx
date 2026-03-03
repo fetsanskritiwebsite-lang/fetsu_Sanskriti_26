@@ -22,18 +22,18 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-6 font-display text-base tracking-wider">
           <MagneticButton>
             <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:74e5a708-3e7e-4d61-8fe9-56888cc36942"
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:850bff03-6ad2-4cdf-8592-3a4dd34059da"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 border border-gold/30 text-gold hover:bg-gold hover:text-gold-foreground rounded-full transition-all duration-300 mr-2"
             >
-              Sponsorship Brochure
+              Event Brochure
             </a>
           </MagneticButton>
           {navItems.map((item) => (
             <MagneticButton key={item}>
               <a
-                href={`#${item.toLowerCase().replace(' ', '-')}`}
+                href={`/#${item.toLowerCase().replace(' ', '-')}`}
                 className="text-foreground/70 hover:text-foreground transition-colors duration-300"
               >
                 {item}
@@ -43,7 +43,7 @@ const Navbar = () => {
 
           <MagneticButton>
             <a
-              href="#contact"
+              href="/#contact"
               className="text-accent hover:text-accent/80 transition-colors duration-300"
             >
               Contact
@@ -72,7 +72,7 @@ const Navbar = () => {
           >
             <div className="flex flex-col items-center gap-4 py-6 font-display text-base tracking-wider">
               <motion.a
-                href="#"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:a697d02d-ecfb-4cdd-b77b-22c2f2b7b8c9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 mb-2 border border-gold/30 text-gold hover:bg-gold hover:text-gold-foreground rounded-full transition-all duration-300"
@@ -81,12 +81,12 @@ const Navbar = () => {
                 transition={{ delay: 0 }}
                 onClick={() => setMobileOpen(false)}
               >
-                Sponsorship
+                Event Brochure
               </motion.a>
               {navItems.map((item, i) => (
                 <motion.a
                   key={item}
-                  href={`#${item.toLowerCase().replace(' ', '-')}`}
+                  href={`/#${item.toLowerCase().replace(' ', '-')}`}
                   className="text-foreground/70 hover:text-foreground transition-colors duration-300"
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -98,7 +98,7 @@ const Navbar = () => {
               ))}
 
               <motion.a
-                href="#contact"
+                href="/#contact"
                 className="text-accent hover:text-accent/80 transition-colors duration-300"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}

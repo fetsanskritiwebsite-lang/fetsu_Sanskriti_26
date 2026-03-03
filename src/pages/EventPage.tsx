@@ -98,32 +98,52 @@ const EventPage = () => {
               </ul>
             </div>
 
-            <div>
-              <h3 className="font-display text-xl md:text-2xl font-black text-foreground mb-3 tracking-wide">
-                Prelims
-              </h3>
-              <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
-              <div className="font-display text-sm md:text-base space-y-1 text-foreground/80">
-                <p>Date : {event.prelims.date}</p>
-                <p>Time : {event.prelims.time}</p>
-                <p>Venue : {event.prelims.venue}</p>
+            {event.dates ? (
+              <div>
+                <h3 className="font-display text-xl md:text-2xl font-black text-foreground mb-3 tracking-wide">
+                  Date
+                </h3>
+                <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
+                <div className="font-display text-sm md:text-base space-y-1 text-foreground/80">
+                  <p>Date : {event.dates.date}</p>
+                  <p>Time : {event.dates.time}</p>
+                  <p>Venue : {event.dates.venue}</p>
+                </div>
               </div>
-            </div>
+            ) : (
+              <>
+                {event.prelims && (
+                  <div>
+                    <h3 className="font-display text-xl md:text-2xl font-black text-foreground mb-3 tracking-wide">
+                      Prelims
+                    </h3>
+                    <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
+                    <div className="font-display text-sm md:text-base space-y-1 text-foreground/80">
+                      <p>Date : {event.prelims.date}</p>
+                      <p>Time : {event.prelims.time}</p>
+                      <p>Venue : {event.prelims.venue}</p>
+                    </div>
+                  </div>
+                )}
 
-            <div>
-              <h3 className="font-display text-xl md:text-2xl font-black text-foreground mb-3 tracking-wide">
-                Finals
-              </h3>
-              <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
-              <div className="font-display text-sm md:text-base space-y-1 text-foreground/80">
-                <p>Date : {event.finals.date}</p>
-                <p>Time : {event.finals.time}</p>
-                <p>Venue : {event.finals.venue}</p>
-              </div>
-            </div>
+                {event.finals && (
+                  <div>
+                    <h3 className="font-display text-xl md:text-2xl font-black text-foreground mb-3 tracking-wide">
+                      Finals
+                    </h3>
+                    <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
+                    <div className="font-display text-sm md:text-base space-y-1 text-foreground/80">
+                      <p>Date : {event.finals.date}</p>
+                      <p>Time : {event.finals.time}</p>
+                      <p>Venue : {event.finals.venue}</p>
+                    </div>
+                  </div>
+                )}
+              </>
+            )}
 
             <p className="font-display text-sm md:text-base text-destructive font-bold tracking-wide">
-              Participants must reach 15 minutes prior to the event
+              Participants must reach 30 minutes prior to the event
             </p>
             <p className="font-body text-xs text-foreground/40">
               *On Spot Registrations To Be Done On The Day Of Event
@@ -148,7 +168,7 @@ const EventPage = () => {
                 ))}
               </div>
             </div>
-
+            {/*
             <div>
               <h2 className="font-display text-2xl md:text-3xl font-black text-foreground mb-3 tracking-wide">
                 Deadline
@@ -158,9 +178,22 @@ const EventPage = () => {
               </p>
             </div>
 
-            <button className="w-full font-display text-lg md:text-xl font-black tracking-widest uppercase px-8 py-4 rounded-xl bg-gold text-gold-foreground hover:bg-gold/90 hover:shadow-[0_0_30px_hsl(var(--gold)/0.4)] transition-all duration-300">
-              Register Now
-            </button>
+            {event.reglink !== "TBA" ? (
+              <a
+                href={event.reglink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full inline-block text-center font-display text-lg md:text-xl font-black tracking-widest uppercase px-8 py-4 rounded-xl bg-gold text-gold-foreground hover:bg-gold/90 hover:shadow-[0_0_30px_hsl(var(--gold)/0.4)] transition-all duration-300"
+              >
+                Register Now
+              </a>
+            ) : (
+              <button disabled className="w-full font-display text-lg md:text-xl font-black tracking-widest uppercase px-8 py-4 rounded-xl bg-gold/50 text-gold-foreground/50 cursor-not-allowed transition-all duration-300">
+                Registration TBA
+              </button>
+            )}
+            */
+            }
           </motion.div>
         </div>
       </div>

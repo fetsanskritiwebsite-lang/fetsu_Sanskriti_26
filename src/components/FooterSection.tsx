@@ -23,65 +23,7 @@ const FooterSection = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
         >
-          <div className="flex flex-col lg:flex-row items-start justify-between gap-16">
-            <div className="flex-1">
-              <h2 className="font-display text-6xl md:text-[8rem] leading-none font-black gradient-text mb-8">
-                JOIN THE<br />MOVEMENT.
-              </h2>
-              <div className="flex gap-6 mt-8 items-center">
-                {socials.map((social) => (
-                  <MagneticButton key={social.label}>
-                    <a
-                      href={social.href}
-                      aria-label={social.label}
-                      className="text-foreground/50 hover:text-accent transition-colors duration-300"
-                    >
-                      <social.icon size={24} strokeWidth={1.5} />
-                    </a>
-                  </MagneticButton>
-                ))}
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full lg:w-auto">
-              <PinContainer
-                title="Jadavpur Campus"
-                href="https://maps.google.com/?q=Jadavpur+University+188+Raja+SC+Mallick+Road+Kolkata+700032"
-                containerClassName="w-full max-w-[20rem] h-[20rem]"
-                imageUrl={jadavpurCampus}
-              >
-                <div className="flex flex-col gap-2">
-                  <h3 className="font-display text-lg text-foreground font-bold">
-                    Jadavpur University
-                  </h3>
-                  <p className="font-body text-xs text-muted-foreground leading-relaxed">
-                    Jadavpur Campus: 188, Raja S.C. Mallick Road,
-                    <br />
-                    Jadavpur, Kolkata — 700032
-                  </p>
-                </div>
-              </PinContainer>
-              <PinContainer
-                title="Salt Lake Campus"
-                href="https://maps.google.com/?q=Jadavpur+University+Salt+Lake+Campus+Kolkata+700098"
-                containerClassName="w-full max-w-[20rem] h-[20rem]"
-                imageUrl={saltLakeCampus}
-              >
-                <div className="flex flex-col gap-2">
-                  <h3 className="font-display text-lg text-foreground font-bold">
-                    Jadavpur University
-                  </h3>
-                  <p className="font-body text-xs text-muted-foreground leading-relaxed">
-                    Salt Lake Campus: Plot No. 8, Salt Lake Bypass,
-                    <br />
-                    LB Block, Sector III, Kolkata — 700098
-                  </p>
-                </div>
-              </PinContainer>
-            </div>
-          </div>
-
-          <div className="mt-32 w-full border-t border-border pt-16">
+          <div className="w-full">
             <div className="text-center mb-16">
               <span className="text-sm font-body tracking-[0.3em] uppercase text-gold mb-4 block">
                 Get In Touch
@@ -143,12 +85,66 @@ const FooterSection = () => {
                     <span className="font-body text-xl md:text-2xl text-foreground font-semibold tracking-wide">Dipesh Mahato</span>
                     <a href="tel:+917029014262" className="font-body text-muted-foreground hover:text-gold transition-colors duration-300">+91 70290 14262</a>
                   </li>
-                  <li className="flex flex-col gap-1 items-center text-center">
-                    <span className="font-body text-xl md:text-2xl text-foreground font-semibold tracking-wide">Manjima Bhattacharya</span>
-                    <a href="tel:+917029936889" className="font-body text-muted-foreground hover:text-gold transition-colors duration-300">+91 70299 36889</a>
-                  </li>
                 </ul>
               </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row items-start justify-between gap-16 mt-32 w-full border-t border-border pt-16">
+            <div className="flex-1">
+              <h2 className="font-display text-6xl md:text-[8rem] leading-none font-black gradient-text mb-8">
+                JOIN THE<br />MOVEMENT.
+              </h2>
+              <div className="flex gap-6 mt-8 items-center">
+                {socials.map((social) => (
+                  <MagneticButton key={social.label}>
+                    <a
+                      href={social.href}
+                      aria-label={social.label}
+                      className="text-foreground/50 hover:text-accent transition-colors duration-300"
+                    >
+                      <social.icon size={24} strokeWidth={1.5} />
+                    </a>
+                  </MagneticButton>
+                ))}
+              </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full lg:w-auto">
+              <PinContainer
+                title="Jadavpur Campus"
+                href="https://maps.google.com/?q=Jadavpur+University+188+Raja+SC+Mallick+Road+Kolkata+700032"
+                containerClassName="w-full max-w-[20rem] h-[20rem]"
+                imageUrl={jadavpurCampus}
+              >
+                <div className="flex flex-col gap-2">
+                  <h3 className="font-display text-lg text-foreground font-bold">
+                    Jadavpur University
+                  </h3>
+                  <p className="font-body text-xs text-muted-foreground leading-relaxed">
+                    Jadavpur Campus: 188, Raja S.C. Mallick Road,
+                    <br />
+                    Jadavpur, Kolkata — 700032
+                  </p>
+                </div>
+              </PinContainer>
+              <PinContainer
+                title="Salt Lake Campus"
+                href="https://maps.google.com/?q=Jadavpur+University+Salt+Lake+Campus+Kolkata+700098"
+                containerClassName="w-full max-w-[20rem] h-[20rem]"
+                imageUrl={saltLakeCampus}
+              >
+                <div className="flex flex-col gap-2">
+                  <h3 className="font-display text-lg text-foreground font-bold">
+                    Jadavpur University
+                  </h3>
+                  <p className="font-body text-xs text-muted-foreground leading-relaxed">
+                    Salt Lake Campus: Plot No. 8, Salt Lake Bypass,
+                    <br />
+                    LB Block, Sector III, Kolkata — 700098
+                  </p>
+                </div>
+              </PinContainer>
             </div>
           </div>
 
