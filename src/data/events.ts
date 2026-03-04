@@ -1,11 +1,31 @@
+import raagnjosh from "@/assets/Sanskriti'26 Event Posters/Raag ‘n’ josh.png";
+import jamit from "@/assets/Sanskriti'26 Event Posters/Jam it.png";
+import tarana from "@/assets/Sanskriti'26 Event Posters/Tarana.png";
+import rendition from "@/assets/Sanskriti'26 Event Posters/Rendition.png";
+import graffitiwars from "@/assets/Sanskriti'26 Event Posters/Graffiti Wars.png";
+import origami from "@/assets/Sanskriti'26 Event Posters/Origami.png";
+import sketchophile from "@/assets/gallery-7.webp"; // Placeholder since Sketchophile poster is missing
+import rangoli from "@/assets/Sanskriti'26 Event Posters/Rangoli.png";
+import tshirtfaceposter from "@/assets/gallery-1.webp"; // Placeholder since T-shirt Face Poster poster is missing
+import natyalay from "@/assets/gallery-4.webp"; // Placeholder since Natyalay poster is missing
+import shootatsight from "@/assets/Sanskriti'26 Event Posters/Shoot at Sight.png";
+import inquizzitive from "@/assets/gallery-6.webp"; // Placeholder since Inquizzitive poster is missing
+import thinktwice from "@/assets/gallery-7.webp"; // Placeholder since Think Twice poster is missing
+import beatbox from "@/assets/Sanskriti'26 Event Posters/Beat Box.png";
+import rapbattle from "@/assets/Sanskriti'26 Event Posters/Rap battle.png";
+import creativewriting from "@/assets/Sanskriti'26 Event Posters/Creative writing.png";
+import guitarwars from "@/assets/Sanskriti'26 Event Posters/Guiter wars.png";
+import instrumental from "@/assets/gallery-4.webp"; // Placeholder since Instrumental poster is missing
+import dancebout from "@/assets/Sanskriti'26 Event Posters/Dance bout.png";
+import studentperformance from "@/assets/Sanskriti'26 Event Posters/Students’ Performance.png";
+import moonwalk from "@/assets/gallery-3.webp"; // Placeholder since Moonwalk poster is missing
+import ghungrooz from "@/assets/Sanskriti'26 Event Posters/Ghoongrooz.png";
+
 import gallery1 from "@/assets/gallery-1.webp";
-import gallery2 from "@/assets/gallery-2.webp";
 import gallery3 from "@/assets/gallery-3.webp";
 import gallery4 from "@/assets/gallery-4.webp";
-import gallery5 from "@/assets/gallery-5.webp";
 import gallery6 from "@/assets/gallery-6.webp";
 import gallery7 from "@/assets/gallery-7.webp";
-import gallery8 from "@/assets/gallery-8.webp";
 
 export interface EventData {
   slug: string;
@@ -27,7 +47,7 @@ export const events: EventData[] = [
     slug: "raag-n-josh",
     title: "Raag N' Josh",
     subtitle: "Eastern Band Competition",
-    img: gallery1,
+    img: raagnjosh,
     type: "Eastern, Band",
     guidelines: [
       "This is a Eastern Band Competition",
@@ -56,7 +76,7 @@ export const events: EventData[] = [
     slug: "jam-it",
     title: "Jam It",
     subtitle: "Western Band Competetion",
-    img: gallery2,
+    img: jamit,
     type: "Western, Band",
     guidelines: [
       "This is a Western Band Competition",
@@ -85,7 +105,7 @@ export const events: EventData[] = [
     slug: "tarana",
     title: "Tarana",
     subtitle: "Solo Classical Vocal Competition",
-    img: gallery3,
+    img: tarana,
     type: "Solo Classical Vocal",
     guidelines: [
       "This is a Solo Classical Vocal Competition",
@@ -112,7 +132,7 @@ export const events: EventData[] = [
     slug: "rendition",
     title: "Rendition",
     subtitle: "Western Solo Vocals",
-    img: gallery4,
+    img: rendition,
     type: "Western Solo Vocals",
     guidelines: [
       "This is a Western Solo Vocals Competition",
@@ -136,158 +156,10 @@ export const events: EventData[] = [
     reglink: "https://docs.google.com/forms/d/e/1FAIpQLSfXQqP486kNYRfOnxa_8nxUmZuo8LvALGTlBWAn6MbxtawmmA/viewform?usp=header",
   },
   {
-    slug: "graffiti-wars",
-    title: "Graffiti Wars",
-    subtitle: "Graffiti/Wall-art Competition",
-    img: gallery5,
-    type: "Graffiti/Wall-art Competition",
-    guidelines: [
-      "This is a graffiti/wall-art competition",
-      "Each team can have a maximum of 5 members",
-      "An area of a wall will be designated and the participants will be given a time of 7 days (30/03/2026 to 05/04/2026) to complete their graffiti",
-      "Wall reservations will be on a first-come, first-served basis",
-      "Teams are expected to carry their own paints, brushes and other necessary materials"
-    ],
-    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
-    dates: { date: "30 March 2026", time: "12:00 p.m.", venue: "TBA" },
-    coordinators: [
-      { name: "Akansha", phone: "+91 74394 40355" },
-      { name: "Shubhamita", phone: "+91 90730 62840" },
-      { name: "Krish", phone: "+91 78660 10143" }
-    ],
-    deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSeRpxEaiGsZ1trLG-wmUZdqAr5JHgEcZvGoJGS0NQM3R7wFDA/viewform?usp=header",
-  },
-  {
-    slug: "origami",
-    title: "Origami",
-    subtitle: "Origami/Paper folding craft Competition",
-    img: gallery6,
-    type: "TBA",
-    guidelines: [
-      "This is an OFF STAGE event",
-      "Participants have to make a minimum of 4 figures",
-      "Participants have to complete the task within the whole day",
-      "The basic chart paper colour will be provided - Red, Green, Blue, Yellow, Pink",
-      "Theme will be given on day of the event"
-    ],
-    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
-    dates: { date: "31 March 2026", time: "1:00 p.m.", venue: "OAT" },
-    coordinators: [
-      { name: "Habibul", phone: "+91 86098 36953" },
-      { name: "Arka", phone: "+91 75012 39609" },
-      { name: "Agniva", phone: "+91 97481 82727" }
-    ],
-    deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSdg4YU4wgg6OdW50QSfkcBljzX-AFKLJoMfQNmOJ1oCPV38RQ/viewform?usp=header",
-  },
-  {
-    slug: "sketchophile",
-    title: "Sketchophile",
-    subtitle: "Drawing Competition",
-    img: gallery7,
-    type: "Drawing Competition",
-    guidelines: [
-      "Drawing competition open for all college students or otherwise",
-      "Theme or topic to be revealed prior to the event",
-      "Each participant to be allotted a time of 2 hours",
-      "Participants are expected to bring their own equipments , paints, paint brushes pencil etc.",
-      "Participants are allowed to use any artform or genre of painting according to their convenience as long it stays relevant to the mentioned theme",
-      "Judge’s choices to be exhibited inside Jadavpur Campus",
-      "Winner to be decided by the judge and his/her choice stands undisputed"
-    ],
-    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
-    dates: { date: "31 March 2026", time: "12:00 p.m.", venue: "Teqip 101" },
-    coordinators: [
-      { name: "Sougata", phone: "+91 90512 98879" },
-      { name: "Adarsha", phone: "+91 90625 56145" },
-      { name: "Agniva", phone: "+91 97481 82727" }
-    ],
-    deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSe6lR2GV--Yybc1Kiq_U38TFVMA5bG0QyuTWoWrQxIZJdalUA/viewform?usp=preview",
-  },
-  {
-    slug: "rangoli",
-    title: "Rangoli",
-    subtitle: "Rangoli Making Competition",
-    img: gallery8,
-    type: "TBA",
-    guidelines: [
-      "This is an OFF-STAGE competition",
-      "Rangoli Event Teams should comprise of 2 members",
-      "The contestants are expected to bring their own colors and brushes",
-      "The contestants are expected to bring any material that they may need",
-      "No material will be supplied at the venue",
-      "The topic will be given an hour before the competition"
-    ],
-    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
-    dates: { date: "31 March 2026", time: "12:00 p.m", venue: "OAT" },
-    coordinators: [
-      { name: "Rohit", phone: "+91 99073 16214" },
-      { name: "Devjit", phone: "+91 73843 26257" },
-      { name: "Dipesh", phone: "+91 70290 14262" }
-    ],
-    deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSed5WEB8nDFK7V4w6lzAKVR51eWDu2hUC4KsHUBrwpgYt86Cg/viewform?usp=header",
-  },
-  {
-    slug: "t-shirt-face-poster-painting",
-    title: "T-shirt, face, Poster Painting",
-    subtitle: "T-shirt, Face & Poster Painting Competition (Separate Events)",
-    img: gallery1,
-    type: "TBA",
-    guidelines: [
-      "These are three different OFF-STAGE competition",
-      "Registration for this event is open only to college students",
-      "The colleges may send any number of contestants",
-      "The team must comprise of an artist and a model (For Face painting.) The paper/T-shirt will be supplied at the venue",
-      "The topic will be announced an hour before the competition",
-      "The contestants will not be allowed to refer to any material for any sort of help",
-      "The decision of the judges is final and binding"
-    ],
-    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
-    dates: { date: "31 March 2026", time: "12:00 p.m", venue: "OAT" },
-    coordinators: [
-      { name: "Akansha", phone: "+91 74394 40355" },
-      { name: "Farhan", phone: "+91 89811 66626" },
-      { name: "Adarsh", phone: "+91 90625 56145" }
-    ],
-    deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSf1lUbNqwk7Fe-CnXseQyZiMBUMzqoIbz8jt23xBQe7VJQlTA/viewform?usp=header",
-  },
-  {
-    slug: "ghungrooz",
-    title: "Ghungrooz",
-    subtitle: "Eastern Dance Competition",
-    img: gallery2,
-    type: "TBA",
-    guidelines: [
-      "This is an ON-STAGE competition",
-      "This is an EASTERN dance competition in two categories-(Solo/ Duet) or Group",
-      "Open to any individual or group, college or otherwise",
-      "Time limit for solo/duet category is 4+1 minutes, from empty stage to empty stage",
-      "Time limit for group category is 6+2 minutes, from empty stage to empty stage",
-      "Marks will be deducted for exceeding the time limit",
-      "There is no limit on the maximum number of participants in a group",
-      "Accessories, costumes have to be arranged by participants",
-      "The performance music has to be brought by the participants in a CD/ PenDrive",
-      "The choice of song/rap should be age appropriate and should not contain vulgar lyrics"
-    ],
-    prelims: { date: "31 March 2026", time: "10:00 a.m.", venue: "OAT" },
-    finals: { date: "TBA", time: "TBA", venue: "TBA" },
-    coordinators: [
-      { name: "Imran", phone: "+91 73194 11841" },
-      { name: "Bhumika", phone: "+91 90073 43083" },
-      { name: "Adrita", phone: "+91 77973 10990" }
-    ],
-    deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLScAMMY7r4gMztWAE_hjaQTEYOwojP2U00M-iZbTUj9XNxzB1A/viewform?usp=header",
-  },
-  {
     slug: "moonwalk",
     title: "Moonwalk",
     subtitle: "Western Dance Competition",
-    img: gallery3,
+    img: moonwalk,
     type: "TBA",
     guidelines: [
       "This is an ON-STAGE competition",
@@ -312,10 +184,159 @@ export const events: EventData[] = [
     reglink: "https://docs.google.com/forms/d/e/1FAIpQLSdES2KYqbG35a3hlpBHalDxzKAEX8fKRdag2gCWCJf4JpphuA/viewform?usp=header",
   },
   {
+    slug: "ghungrooz",
+    title: "Ghungrooz",
+    subtitle: "Eastern Dance Competition",
+    img: ghungrooz,
+    type: "TBA",
+    guidelines: [
+      "This is an ON-STAGE competition",
+      "This is an EASTERN dance competition in two categories-(Solo/ Duet) or Group",
+      "Open to any individual or group, college or otherwise",
+      "Time limit for solo/duet category is 4+1 minutes, from empty stage to empty stage",
+      "Time limit for group category is 6+2 minutes, from empty stage to empty stage",
+      "Marks will be deducted for exceeding the time limit",
+      "There is no limit on the maximum number of participants in a group",
+      "Accessories, costumes have to be arranged by participants",
+      "The performance music has to be brought by the participants in a CD/ PenDrive",
+      "The choice of song/rap should be age appropriate and should not contain vulgar lyrics"
+    ],
+    prelims: { date: "31 March 2026", time: "10:00 a.m.", venue: "OAT" },
+    finals: { date: "TBA", time: "TBA", venue: "TBA" },
+    coordinators: [
+      { name: "Imran", phone: "+91 73194 11841" },
+      { name: "Bhumika", phone: "+91 90073 43083" },
+      { name: "Adrita", phone: "+91 77973 10990" }
+    ],
+    deadline: "TBA",
+    reglink: "https://docs.google.com/forms/d/e/1FAIpQLScAMMY7r4gMztWAE_hjaQTEYOwojP2U00M-iZbTUj9XNxzB1A/viewform?usp=header",
+  },
+  {
+    slug: "graffiti-wars",
+    title: "Graffiti Wars",
+    subtitle: "Graffiti/Wall-art Competition",
+    img: graffitiwars,
+    type: "Graffiti/Wall-art Competition",
+    guidelines: [
+      "This is a graffiti/wall-art competition",
+      "Each team can have a maximum of 5 members",
+      "An area of a wall will be designated and the participants will be given a time of 7 days (30/03/2026 to 05/04/2026) to complete their graffiti",
+      "Wall reservations will be on a first-come, first-served basis",
+      "Teams are expected to carry their own paints, brushes and other necessary materials"
+    ],
+    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
+    dates: { date: "30 March 2026", time: "12:00 p.m.", venue: "TBA" },
+    coordinators: [
+      { name: "Akansha", phone: "+91 74394 40355" },
+      { name: "Shubhamita", phone: "+91 90730 62840" },
+      { name: "Krish", phone: "+91 78660 10143" }
+    ],
+    deadline: "TBA",
+    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSeRpxEaiGsZ1trLG-wmUZdqAr5JHgEcZvGoJGS0NQM3R7wFDA/viewform?usp=header",
+  },
+  {
+    slug: "origami",
+    title: "Origami",
+    subtitle: "Origami/Paper folding craft Competition",
+    img: origami,
+    type: "TBA",
+    guidelines: [
+      "This is an OFF STAGE event",
+      "Participants have to make a minimum of 4 figures",
+      "Participants have to complete the task within the whole day",
+      "The basic chart paper colour will be provided - Red, Green, Blue, Yellow, Pink",
+      "Theme will be given on day of the event"
+    ],
+    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
+    dates: { date: "31 March 2026", time: "1:00 p.m.", venue: "OAT" },
+    coordinators: [
+      { name: "Habibul", phone: "+91 86098 36953" },
+      { name: "Arka", phone: "+91 75012 39609" },
+      { name: "Agniva", phone: "+91 97481 82727" }
+    ],
+    deadline: "TBA",
+    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSdg4YU4wgg6OdW50QSfkcBljzX-AFKLJoMfQNmOJ1oCPV38RQ/viewform?usp=header",
+  },
+  {
+    slug: "sketchophile",
+    title: "Sketchophile",
+    subtitle: "Drawing Competition",
+    img: sketchophile,
+    type: "Drawing Competition",
+    guidelines: [
+      "Drawing competition open for all college students or otherwise",
+      "Theme or topic to be revealed prior to the event",
+      "Each participant to be allotted a time of 2 hours",
+      "Participants are expected to bring their own equipments , paints, paint brushes pencil etc.",
+      "Participants are allowed to use any artform or genre of painting according to their convenience as long it stays relevant to the mentioned theme",
+      "Judge’s choices to be exhibited inside Jadavpur Campus",
+      "Winner to be decided by the judge and his/her choice stands undisputed"
+    ],
+    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
+    dates: { date: "31 March 2026", time: "12:00 p.m.", venue: "Teqip 101" },
+    coordinators: [
+      { name: "Sougata", phone: "+91 90512 98879" },
+      { name: "Adarsha", phone: "+91 90625 56145" },
+      { name: "Agniva", phone: "+91 97481 82727" }
+    ],
+    deadline: "TBA",
+    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSe6lR2GV--Yybc1Kiq_U38TFVMA5bG0QyuTWoWrQxIZJdalUA/viewform?usp=preview",
+  },
+  {
+    slug: "rangoli",
+    title: "Rangoli",
+    subtitle: "Rangoli Making Competition",
+    img: rangoli,
+    type: "TBA",
+    guidelines: [
+      "This is an OFF-STAGE competition",
+      "Rangoli Event Teams should comprise of 2 members",
+      "The contestants are expected to bring their own colors and brushes",
+      "The contestants are expected to bring any material that they may need",
+      "No material will be supplied at the venue",
+      "The topic will be given an hour before the competition"
+    ],
+    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
+    dates: { date: "31 March 2026", time: "12:00 p.m", venue: "OAT" },
+    coordinators: [
+      { name: "Rohit", phone: "+91 99073 16214" },
+      { name: "Devjit", phone: "+91 73843 26257" },
+      { name: "Dipesh", phone: "+91 70290 14262" }
+    ],
+    deadline: "TBA",
+    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSed5WEB8nDFK7V4w6lzAKVR51eWDu2hUC4KsHUBrwpgYt86Cg/viewform?usp=header",
+  },
+  {
+    slug: "t-shirt-face-poster-painting",
+    title: "T-shirt, face, Poster Painting",
+    subtitle: "T-shirt, Face & Poster Painting Competition (Separate Events)",
+    img: tshirtfaceposter,
+    type: "TBA",
+    guidelines: [
+      "These are three different OFF-STAGE competition",
+      "Registration for this event is open only to college students",
+      "The colleges may send any number of contestants",
+      "The team must comprise of an artist and a model (For Face painting.) The paper/T-shirt will be supplied at the venue",
+      "The topic will be announced an hour before the competition",
+      "The contestants will not be allowed to refer to any material for any sort of help",
+      "The decision of the judges is final and binding"
+    ],
+    //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
+    dates: { date: "31 March 2026", time: "12:00 p.m", venue: "OAT" },
+    coordinators: [
+      { name: "Akansha", phone: "+91 74394 40355" },
+      { name: "Farhan", phone: "+91 89811 66626" },
+      { name: "Adarsh", phone: "+91 90625 56145" }
+    ],
+    deadline: "TBA",
+    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSf1lUbNqwk7Fe-CnXseQyZiMBUMzqoIbz8jt23xBQe7VJQlTA/viewform?usp=header",
+  },
+
+  {
     slug: "natyalay",
     title: "Natyalay",
     subtitle: "Drama Competition",
-    img: gallery4,
+    img: natyalay,
     type: "Drama Competition",
     guidelines: [
       "Open to any group/team, college or otherwise",
@@ -341,7 +362,7 @@ export const events: EventData[] = [
     slug: "shoot-at-sight",
     title: "Shoot At Sight",
     subtitle: "Photography Competition",
-    img: gallery5,
+    img: shootatsight,
     type: "Photography Competition",
     guidelines: [
       "This is a spot photography contest. Participants must bring their own equipments (mobile photography allowed)",
@@ -366,7 +387,7 @@ export const events: EventData[] = [
     slug: "inquizzitive",
     title: "Inquizzitive",
     subtitle: "Quiz Competition",
-    img: gallery6,
+    img: inquizzitive,
     type: "Quiz Competition",
     guidelines: [
       "General quiz open to all College students",
@@ -389,7 +410,7 @@ export const events: EventData[] = [
     slug: "think-twice",
     title: "Think Twice",
     subtitle: "Debate Competition",
-    img: gallery7,
+    img: thinktwice,
     type: "Debate Competition",
     guidelines: [
       "There will be only 10 teams for the event, registration is on a first-come, first-served basis",
@@ -412,7 +433,7 @@ export const events: EventData[] = [
     slug: "beat-box",
     title: "Beat-box",
     subtitle: "Beatboxing Competition",
-    img: gallery8,
+    img: beatbox,
     type: "Beatboxing Competition",
     guidelines: [
       "This is a beat-boxing competition",
@@ -438,7 +459,7 @@ export const events: EventData[] = [
     slug: "rap-battle",
     title: "Rap Battle",
     subtitle: "Rap Competition",
-    img: gallery1,
+    img: rapbattle,
     type: "Rap Competition",
     guidelines: [
       "Registration for Rap-Battle is open to any individual, college or otherwise",
@@ -464,7 +485,7 @@ export const events: EventData[] = [
     slug: "creative-writing",
     title: "Creative Writing",
     subtitle: "Creative Writing Competition",
-    img: gallery2,
+    img: creativewriting,
     type: "Creative Writing",
     guidelines: [
       "This is an OFF-STAGE competition",
@@ -489,7 +510,7 @@ export const events: EventData[] = [
     slug: "guitar-wars",
     title: "Guitar Wars",
     subtitle: "Solo Guitar Playing Competition",
-    img: gallery3,
+    img: guitarwars,
     type: "Solo Guitar Playing Competition",
     guidelines: [
       "This is an ON-STAGE competition",
@@ -512,7 +533,7 @@ export const events: EventData[] = [
     slug: "instrumental",
     title: "Instrumental",
     subtitle: "Solo Music Instrument Competition",
-    img: gallery4,
+    img: instrumental,
     type: "TBA",
     guidelines: [
       "This is an instrumental solo competition",
@@ -536,7 +557,7 @@ export const events: EventData[] = [
     slug: "dance-bout",
     title: "Dance Bout",
     subtitle: "Street Dance Competition",
-    img: gallery5,
+    img: dancebout,
     type: "TBA",
     guidelines: [
       "ONE ON ONE ALL STYLE BATTLE",
@@ -560,7 +581,7 @@ export const events: EventData[] = [
     slug: "student-performance",
     title: "Student Performance",
     subtitle: "TBA",
-    img: gallery6,
+    img: studentperformance,
     type: "TBA",
     guidelines: ["TBA"],
     dates: { date: "30 March 2026", time: "6:30 p.m.", venue: "OAT" },

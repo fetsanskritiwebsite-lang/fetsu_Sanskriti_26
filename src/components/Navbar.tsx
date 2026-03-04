@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-6 font-display text-base tracking-wider">
           <MagneticButton>
             <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:850bff03-6ad2-4cdf-8592-3a4dd34059da"
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:6ffbe174-c7eb-4f09-8294-2c645f67cb30"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 border border-gold/30 text-gold hover:bg-gold hover:text-gold-foreground rounded-full transition-all duration-300 mr-2"

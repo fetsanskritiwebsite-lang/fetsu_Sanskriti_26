@@ -7,8 +7,12 @@ import culture2 from "@/assets/culture-2.jpg";
 import culture3 from "@/assets/culture-3.jpg";
 import culture4 from "@/assets/culture-4.jpg";
 import culture5 from "@/assets/culture-5.jpg";
+import Eastern_night from "@/assets/Eastern_Night.jpeg"
+import Western_night from "@/assets/Western_Night.webp"
+import Reunion_night from "@/assets/Reunion_Night4.jpg"
+import Final_night from "@/assets/Final_Night.webp"
 
-const images = [heroBg, culture1, culture2, culture3, culture4, culture5, heroBg];
+const images = [heroBg, culture3, culture2, culture1, culture4, Eastern_night, Western_night, Reunion_night, Final_night];
 
 const schedule = [
   {
@@ -16,7 +20,7 @@ const schedule = [
     date: "28th March",
     subtitle: "Curtain Raiser",
     events: [
-      { name: "Band Performance", time: "" },
+      //{ name: "Band Performance", time: "" },
     ],
   },
   {
@@ -74,7 +78,7 @@ const schedule = [
     events: [
       { name: "TARANA - Finals (OAT)", time: "10:00 AM" },
       { name: "RAAG N JOSH - Finals (OAT)", time: "12:00 PM" },
-      { name: "Band Performance", time: "" },
+      //{ name: "Band Performance", time: "" },
     ],
   },
   {
@@ -84,7 +88,7 @@ const schedule = [
     events: [
       { name: "RENDITION - Finals (OAT)", time: "10:00 AM" },
       { name: "JAM IT - Finals (OAT)", time: "12:00 PM" },
-      { name: "Band Performance", time: "" },
+      //{ name: "Band Performance", time: "" },
     ],
   },
   {
@@ -94,7 +98,7 @@ const schedule = [
     events: [
       { name: "GUITAR WARS (OAT)", time: "10:00 AM" },
       { name: "INSTRUMENTAL (OAT)", time: "01:00 PM" },
-      { name: "Band Performance", time: "" },
+      //{ name: "Band Performance", time: "" },
     ],
   },
   {
@@ -102,7 +106,7 @@ const schedule = [
     date: "5th April",
     subtitle: "Final Night",
     events: [
-      { name: "Band Performance", time: "" },
+      //{ name: "Band Performance", time: "" },
     ],
   },
 ];
