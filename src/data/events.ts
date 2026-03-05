@@ -4,21 +4,21 @@ import tarana from "@/assets/Sanskriti'26 Event Posters/Tarana.png";
 import rendition from "@/assets/Sanskriti'26 Event Posters/Rendition.png";
 import graffitiwars from "@/assets/Sanskriti'26 Event Posters/Graffiti Wars.png";
 import origami from "@/assets/Sanskriti'26 Event Posters/Origami.png";
-import sketchophile from "@/assets/gallery-7.webp"; // Placeholder since Sketchophile poster is missing
+import sketchophile from "@/assets/Sanskriti'26 Event Posters/Sketchophile.png";
 import rangoli from "@/assets/Sanskriti'26 Event Posters/Rangoli.png";
-import tshirtfaceposter from "@/assets/gallery-1.webp"; // Placeholder since T-shirt Face Poster poster is missing
-import natyalay from "@/assets/gallery-4.webp"; // Placeholder since Natyalay poster is missing
+import tshirtfaceposter from "@/assets/Sanskriti'26 Event Posters/Face, Tshirt & Poster.png";
+import natyalay from "@/assets/Sanskriti'26 Event Posters/Natyalaya.png";
 import shootatsight from "@/assets/Sanskriti'26 Event Posters/Shoot at Sight.png";
-import inquizzitive from "@/assets/gallery-6.webp"; // Placeholder since Inquizzitive poster is missing
-import thinktwice from "@/assets/gallery-7.webp"; // Placeholder since Think Twice poster is missing
+import inquizzitive from "@/assets/Sanskriti'26 Event Posters/Inquizzitive.png";
+import thinktwice from "@/assets/Sanskriti'26 Event Posters/Think Twice.png";
 import beatbox from "@/assets/Sanskriti'26 Event Posters/Beat Box.png";
 import rapbattle from "@/assets/Sanskriti'26 Event Posters/Rap battle.png";
 import creativewriting from "@/assets/Sanskriti'26 Event Posters/Creative writing.png";
 import guitarwars from "@/assets/Sanskriti'26 Event Posters/Guiter wars.png";
-import instrumental from "@/assets/gallery-4.webp"; // Placeholder since Instrumental poster is missing
+import instrumental from "@/assets/Sanskriti'26 Event Posters/Instrumentals.png";
 import dancebout from "@/assets/Sanskriti'26 Event Posters/Dance bout.png";
 import studentperformance from "@/assets/Sanskriti'26 Event Posters/Students’ Performance.png";
-import moonwalk from "@/assets/gallery-3.webp"; // Placeholder since Moonwalk poster is missing
+import moonwalk from "@/assets/Sanskriti'26 Event Posters/Moonwalk.png";
 import ghungrooz from "@/assets/Sanskriti'26 Event Posters/Ghoongrooz.png";
 
 import gallery1 from "@/assets/gallery-1.webp";
