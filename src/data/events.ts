@@ -201,8 +201,7 @@ export const events: EventData[] = [
       "The performance music has to be brought by the participants in a CD/ PenDrive",
       "The choice of song/rap should be age appropriate and should not contain vulgar lyrics"
     ],
-    prelims: { date: "31 March 2026", time: "10:00 a.m.", venue: "OAT" },
-    finals: { date: "TBA", time: "TBA", venue: "TBA" },
+    dates: { date: "31 March 2026", time: "10:00 a.m.", venue: "OAT" },
     coordinators: [
       { name: "Imran", phone: "+91 73194 11841" },
       { name: "Bhumika", phone: "+91 90073 43083" },
@@ -225,7 +224,7 @@ export const events: EventData[] = [
       "Teams are expected to carry their own paints, brushes and other necessary materials"
     ],
     //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
-    dates: { date: "30 March 2026", time: "12:00 p.m.", venue: "TBA" },
+    dates: { date: "30 March 2026", time: "12:00 p.m.", venue: "OAT" },
     coordinators: [
       { name: "Akansha", phone: "+91 74394 40355" },
       { name: "Shubhamita", phone: "+91 90730 62840" },
