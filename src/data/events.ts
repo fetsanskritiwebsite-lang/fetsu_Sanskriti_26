@@ -580,10 +580,16 @@ export const events: EventData[] = [
   {
     slug: "student-performance",
     title: "Student Performance",
-    subtitle: "TBA",
+    subtitle: "Jadavpur Students Talent Show Competition",
     img: studentperformance,
     type: "TBA",
-    guidelines: ["TBA"],
+    guidelines: [
+      "Only open to Jadavpur University Students",
+      "Choice of song/rap must be age-appropriate and should not be offensive or vulgar",
+      "Dance Performance time should be 4 minutes",
+      "Solo Vocal Performance time should be 4 minutes",
+      "Band Performance time should be 7 minutes(performance) + 1 minute(setup)"
+    ],
     dates: { date: "30 March 2026", time: "6:30 p.m.", venue: "OAT" },
     coordinators: [
       { name: "Dipesh", phone: "+91 70290 14262" },

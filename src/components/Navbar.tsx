@@ -20,16 +20,7 @@ const Navbar = () => {
       <div className="max-w-[98%] mx-auto px-4 py-4 flex items-center justify-between">
         <span className="font-display text-2xl text-foreground">Sanskriti</span>
         <div className="hidden md:flex items-center gap-6 font-display text-base tracking-wider">
-          <MagneticButton>
-            <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:6ffbe174-c7eb-4f09-8294-2c645f67cb30"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 border border-gold/30 text-gold hover:bg-gold hover:text-gold-foreground rounded-full transition-all duration-300 mr-2"
-            >
-              Event Brochure
-            </a>
-          </MagneticButton>
+
           {navItems.map((item) => (
             <MagneticButton key={item}>
               <a
@@ -71,18 +62,7 @@ const Navbar = () => {
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="flex flex-col items-center gap-4 py-6 font-display text-base tracking-wider">
-              <motion.a
-                href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:a697d02d-ecfb-4cdd-b77b-22c2f2b7b8c9"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-2 mb-2 border border-gold/30 text-gold hover:bg-gold hover:text-gold-foreground rounded-full transition-all duration-300"
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0 }}
-                onClick={() => setMobileOpen(false)}
-              >
-                Event Brochure
-              </motion.a>
+
               {navItems.map((item, i) => (
                 <motion.a
                   key={item}

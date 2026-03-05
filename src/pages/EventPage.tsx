@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, MapPin } from "lucide-react";
 import { events } from "@/data/events";
 import Navbar from "@/components/Navbar";
 import ContactSection from "@/components/ContactSection";
@@ -100,47 +100,107 @@ const EventPage = () => {
             </div>
 
             {event.dates ? (
-              <div>
-                <h3 className="font-display text-xl md:text-2xl font-black text-foreground mb-3 tracking-wide">
-                  Date
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm relative overflow-hidden group hover:border-gold/30 transition-colors duration-500">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gold/10 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none transition-transform group-hover:scale-110 duration-500" />
+
+                <h3 className="font-display text-xl md:text-2xl font-black text-gold mb-6 tracking-wide flex items-center gap-3">
+                  Schedule
                 </h3>
-                <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
-                <div className="font-body text-sm md:text-base space-y-1 text-foreground/80">
-                  <p>Date : {event.dates.date}</p>
-                  <p>Time : {event.dates.time}</p>
-                  <p>Venue : {event.dates.venue}</p>
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 font-body">
+                  <div className="flex flex-col gap-1.5">
+                    <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                      <Calendar className="w-4 h-4 text-gold" />
+                      <span className="text-xs uppercase tracking-widest font-semibold">Date</span>
+                    </div>
+                    <p className="text-base text-foreground font-medium">{event.dates.date}</p>
+                  </div>
+                  <div className="flex flex-col gap-1.5">
+                    <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                      <Clock className="w-4 h-4 text-gold" />
+                      <span className="text-xs uppercase tracking-widest font-semibold">Time</span>
+                    </div>
+                    <p className="text-base text-foreground font-medium">{event.dates.time}</p>
+                  </div>
+                  <div className="flex flex-col gap-1.5">
+                    <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                      <MapPin className="w-4 h-4 text-gold" />
+                      <span className="text-xs uppercase tracking-widest font-semibold">Venue</span>
+                    </div>
+                    <p className="text-base text-foreground font-medium">{event.dates.venue}</p>
+                  </div>
                 </div>
               </div>
             ) : (
-              <>
+              <div className="space-y-6">
                 {event.prelims && (
-                  <div>
-                    <h3 className="font-display text-xl md:text-2xl font-black text-foreground mb-3 tracking-wide">
+                  <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm relative overflow-hidden group hover:border-gold/30 transition-colors duration-500">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-gold/10 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none transition-transform group-hover:scale-110 duration-500" />
+
+                    <h3 className="font-display text-xl md:text-2xl font-black text-gold mb-6 tracking-wide flex items-center gap-3">
                       Prelims
                     </h3>
-                    <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
-                    <div className="font-body text-sm md:text-base space-y-1 text-foreground/80">
-                      <p>Date : {event.prelims.date}</p>
-                      <p>Time : {event.prelims.time}</p>
-                      <p>Venue : {event.prelims.venue}</p>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 font-body">
+                      <div className="flex flex-col gap-1.5">
+                        <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                          <Calendar className="w-4 h-4 text-gold" />
+                          <span className="text-xs uppercase tracking-widest font-semibold">Date</span>
+                        </div>
+                        <p className="text-base text-foreground font-medium">{event.prelims.date}</p>
+                      </div>
+                      <div className="flex flex-col gap-1.5">
+                        <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                          <Clock className="w-4 h-4 text-gold" />
+                          <span className="text-xs uppercase tracking-widest font-semibold">Time</span>
+                        </div>
+                        <p className="text-base text-foreground font-medium">{event.prelims.time}</p>
+                      </div>
+                      <div className="flex flex-col gap-1.5">
+                        <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                          <MapPin className="w-4 h-4 text-gold" />
+                          <span className="text-xs uppercase tracking-widest font-semibold">Venue</span>
+                        </div>
+                        <p className="text-base text-foreground font-medium">{event.prelims.venue}</p>
+                      </div>
                     </div>
                   </div>
                 )}
 
                 {event.finals && (
-                  <div>
-                    <h3 className="font-display text-xl md:text-2xl font-black text-foreground mb-3 tracking-wide">
+                  <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm relative overflow-hidden group hover:border-gold/30 transition-colors duration-500">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-gold/10 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none transition-transform group-hover:scale-110 duration-500" />
+
+                    <h3 className="font-display text-xl md:text-2xl font-black text-gold mb-6 tracking-wide flex items-center gap-3">
                       Finals
                     </h3>
-                    <div className="w-20 h-[2px] bg-foreground/20 mb-4" />
-                    <div className="font-body text-sm md:text-base space-y-1 text-foreground/80">
-                      <p>Date : {event.finals.date}</p>
-                      <p>Time : {event.finals.time}</p>
-                      <p>Venue : {event.finals.venue}</p>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 font-body">
+                      <div className="flex flex-col gap-1.5">
+                        <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                          <Calendar className="w-4 h-4 text-gold" />
+                          <span className="text-xs uppercase tracking-widest font-semibold">Date</span>
+                        </div>
+                        <p className="text-base text-foreground font-medium">{event.finals.date}</p>
+                      </div>
+                      <div className="flex flex-col gap-1.5">
+                        <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                          <Clock className="w-4 h-4 text-gold" />
+                          <span className="text-xs uppercase tracking-widest font-semibold">Time</span>
+                        </div>
+                        <p className="text-base text-foreground font-medium">{event.finals.time}</p>
+                      </div>
+                      <div className="flex flex-col gap-1.5">
+                        <div className="flex items-center gap-2 text-foreground/50 mb-1">
+                          <MapPin className="w-4 h-4 text-gold" />
+                          <span className="text-xs uppercase tracking-widest font-semibold">Venue</span>
+                        </div>
+                        <p className="text-base text-foreground font-medium">{event.finals.venue}</p>
+                      </div>
                     </div>
                   </div>
                 )}
-              </>
+              </div>
             )}
 
             <p className="font-body text-base md:text-lg text-destructive font-bold tracking-wide">
@@ -169,16 +229,6 @@ const EventPage = () => {
                 ))}
               </div>
             </div>
-            {/*
-            <div>
-              <h2 className="font-display text-2xl md:text-3xl font-black text-foreground mb-3 tracking-wide">
-                Deadline
-              </h2>
-              <p className="font-display text-lg text-destructive font-bold">
-                {event.deadline}
-              </p>
-            </div>
-
             {event.reglink !== "TBA" ? (
               <a
                 href={event.reglink}
@@ -193,8 +243,6 @@ const EventPage = () => {
                 Registration TBA
               </button>
             )}
-            */
-            }
           </motion.div>
         </div>
       </div>
