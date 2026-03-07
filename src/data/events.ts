@@ -332,8 +332,8 @@ export const events: EventData[] = [
   },
 
   {
-    slug: "natyalay",
-    title: "Natyalay",
+    slug: "natyalaya",
+    title: "Natyalaya",
     subtitle: "Drama Competition",
     img: natyalay,
     type: "Drama Competition",
