@@ -7,7 +7,7 @@ const paragraphText = "is a celebration of hope. The very word (origin Sanskrit:
 const stats = [
   { year: "1978", label: "Founded" },
   { year: "50K+", label: "Annual Visitors" },
-  { year: "200+", label: "Events" },
+  { year: "50+", label: "Events" },
 ];
 
 const StatCard = ({ stat, index }: { stat: typeof stats[0]; index: number }) => {
