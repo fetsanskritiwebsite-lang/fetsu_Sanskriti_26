@@ -230,7 +230,7 @@ const EventPage = () => {
               </div>
             </div>
 
-            {/*event.reglink !== "TBA" ? (
+            {event.reglink !== "TBA" ? (
               <a
                 href={event.reglink}
                 target="_blank"
@@ -243,7 +243,7 @@ const EventPage = () => {
               <button disabled className="w-full font-display text-lg md:text-xl font-black tracking-widest uppercase px-8 py-4 rounded-xl bg-gold/50 text-gold-foreground/50 cursor-not-allowed transition-all duration-300">
                 Registration TBA
               </button>
-            )*/}
+            )}
 
           </motion.div>
         </div>
