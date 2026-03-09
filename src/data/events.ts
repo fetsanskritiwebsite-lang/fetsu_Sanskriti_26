@@ -5,19 +5,19 @@ import rendition from "@/assets/Sanskriti'26 Event Posters/Rendition.png";
 import graffitiwars from "@/assets/Sanskriti'26 Event Posters/Graffiti Wars.png";
 import origami from "@/assets/Sanskriti'26 Event Posters/Origami.png";
 import sketchophile from "@/assets/Sanskriti'26 Event Posters/Sketchophile.png";
-import rangoli from "@/assets/Sanskriti'26 Event Posters/Rangoli.png";
+import rangoli from "@/assets/Sanskriti'26 Event Posters/rangoli.jpeg";
 import tshirtfaceposter from "@/assets/Sanskriti'26 Event Posters/Face, tshirt, poster.jpg";
 import natyalay from "@/assets/Sanskriti'26 Event Posters/Natyalaya.jpg";
 import shootatsight from "@/assets/Sanskriti'26 Event Posters/Shoot at Sight.png";
 import inquizzitive from "@/assets/Sanskriti'26 Event Posters/Inquizzitive.jpg";
 import thinktwice from "@/assets/Sanskriti'26 Event Posters/Think twice.jpg";
 import beatbox from "@/assets/Sanskriti'26 Event Posters/Beat Box.png";
-import rapbattle from "@/assets/Sanskriti'26 Event Posters/Rap battle.png";
+import rapbattle from "@/assets/Sanskriti'26 Event Posters/rap battle.jpeg";
 import creativewriting from "@/assets/Sanskriti'26 Event Posters/Creative writing.png";
 import guitarwars from "@/assets/Sanskriti'26 Event Posters/Guiter wars.png";
 import instrumental from "@/assets/Sanskriti'26 Event Posters/Instrumentals.png";
 import dancebout from "@/assets/Sanskriti'26 Event Posters/Dance bout.png";
-import studentperformance from "@/assets/Sanskriti'26 Event Posters/Students’ Performance.png";
+import studentperformance from "@/assets/Sanskriti'26 Event Posters/Student Performance.jpeg";
 import moonwalk from "@/assets/Sanskriti'26 Event Posters/Moonwalk.jpg";
 import ghungrooz from "@/assets/Sanskriti'26 Event Posters/Ghoongrooz.png";
 
@@ -177,7 +177,7 @@ export const events: EventData[] = [
     dates: { date: "31 March 2026", time: "2:20 p.m.", venue: "OAT" },
     coordinators: [
       { name: "Sabyasachi", phone: "+91 93397 44580" },
-      { name: "Digonto", phone: "+91 93304 07585" },
+      { name: "Arpita", phone: "+91 86174 72675" },
       { name: "Adrija", phone: "+91 98317 87232" }
     ],
     deadline: "TBA",
@@ -298,9 +298,10 @@ export const events: EventData[] = [
     //prelims: { date: "TBA", time: "TBA", venue: "TBA" },
     dates: { date: "31 March 2026", time: "12:00 p.m", venue: "OAT" },
     coordinators: [
+      { name: "Avilasha", phone: "+91 96796 40227" },
       { name: "Rohit", phone: "+91 99073 16214" },
-      { name: "Devjit", phone: "+91 73843 26257" },
-      { name: "Dipesh", phone: "+91 70290 14262" }
+      { name: "Devjit", phone: "+91 73843 26257" }
+
     ],
     deadline: "TBA",
     reglink: "https://docs.google.com/forms/d/e/1FAIpQLSed5WEB8nDFK7V4w6lzAKVR51eWDu2hUC4KsHUBrwpgYt86Cg/viewform?usp=header",
@@ -473,7 +474,7 @@ export const events: EventData[] = [
     ],
     dates: { date: "1 April 2026", time: "3:30 p.m.", venue: "OAT" },
     coordinators: [
-      { name: "Dipesh", phone: "+91 70290 14262" },
+      { name: "Digonto", phone: "+91 93304 07585" },
       { name: "Dipranil", phone: "+91 82500 98684" },
       { name: "Tanishq", phone: "+91 76019 80812" }
     ],
@@ -591,8 +592,8 @@ export const events: EventData[] = [
     ],
     dates: { date: "30 March 2026", time: "6:30 p.m.", venue: "OAT" },
     coordinators: [
-      { name: "Dipesh", phone: "+91 70290 14262" },
       { name: "Shreshta", phone: "+91 83899 45831" },
+      { name: "Avilasha", phone: "+91 96796 40227" },
       { name: "Agniva", phone: "+91 97481 82727" }
     ],
     deadline: "TBA",
