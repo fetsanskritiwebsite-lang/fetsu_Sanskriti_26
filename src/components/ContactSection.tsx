@@ -36,7 +36,7 @@ const ContactSection = () => {
                                         <a href="tel:+917551858423" className="font-body text-muted-foreground hover:text-gold transition-colors duration-300">+91 75518 58423</a>
                                     </li>
                                     <li className="flex flex-col gap-1 items-center text-center">
-                                        <span className="font-body text-xl md:text-2xl text-foreground font-semibold tracking-wide">Arindal Ghosh</span>
+                                        <span className="font-body text-xl md:text-2xl text-foreground font-semibold tracking-wide">Arindol Ghosh</span>
                                         <a href="tel:+919382073934" className="font-body text-muted-foreground hover:text-gold transition-colors duration-300">+91 93820 73934</a>
                                     </li>
                                     <li className="flex flex-col gap-1 items-center text-center">
