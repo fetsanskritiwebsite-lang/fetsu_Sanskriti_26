@@ -34,7 +34,7 @@ const EventCard = ({ event, index }: { event: typeof events[0]; index: number })
           </div>
           <div className="mt-2 flex justify-end">
             <span className="text-gold group-hover:translate-x-1.5 transition-transform duration-300 text-sm p-2">
-              Register now →
+              More Info →
             </span>
           </div>
         </div>

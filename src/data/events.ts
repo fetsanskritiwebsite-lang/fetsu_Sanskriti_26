@@ -99,7 +99,7 @@ export const events: EventData[] = [
       { name: "Anish", phone: "+91 93305 83597" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLScN02fQMls8stYP8BVLzn1osmv9cmjJkhafsS5tmrZpwdoR3A/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "tarana",
