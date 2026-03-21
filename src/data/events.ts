@@ -580,7 +580,7 @@ export const events: EventData[] = [
   {
     slug: "student-performance",
     title: "Student Performance",
-    subtitle: "Jadavpur Students Talent Show Competition",
+    subtitle: "Jadavpur Students Talent Show",
     img: studentperformance,
     type: "TBA",
     guidelines: [
