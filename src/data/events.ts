@@ -6,9 +6,9 @@ import graffitiwars from "@/assets/Sanskriti'26 Event Posters/Graffiti Wars.png"
 import origami from "@/assets/Sanskriti'26 Event Posters/Origami.png";
 import sketchophile from "@/assets/Sanskriti'26 Event Posters/Sketchophile.png";
 import rangoli from "@/assets/Sanskriti'26 Event Posters/rangoli.jpeg";
-import tshirtfaceposter from "@/assets/Sanskriti'26 Event Posters/Face, tshirt, poster.jpg";
+import tshirtfaceposter from "@/assets/Sanskriti'26 Event Posters/Face, Tshirt & Poster.png";
 import natyalay from "@/assets/Sanskriti'26 Event Posters/Natyalaya.jpg";
-import shootatsight from "@/assets/Sanskriti'26 Event Posters/Shoot at Sight.png";
+import shootatsight from "@/assets/Sanskriti'26 Event Posters/shoot at sight.jpeg";
 import inquizzitive from "@/assets/Sanskriti'26 Event Posters/Inquizzitive.jpg";
 import thinktwice from "@/assets/Sanskriti'26 Event Posters/Think twice.jpg";
 import beatbox from "@/assets/Sanskriti'26 Event Posters/Beat Box.png";
