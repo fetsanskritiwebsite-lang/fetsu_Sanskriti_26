@@ -5,7 +5,7 @@ import MagneticButton from "./MagneticButton";
 import { Menu, X } from "lucide-react";
 
 
-const navItems = ["Home", "About", "Timeline", "Band Lineup", "Events", "Gallery"];
+const navItems = ["Home", "About", "Timeline", "Special Performance", "Band Lineup", "Events", "Gallery"];
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
