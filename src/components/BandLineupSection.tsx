@@ -21,7 +21,7 @@ const BandLineupSection = () => {
                 />
             ) : (
                 <div className="w-[300px] h-[400px] md:w-[350px] md:h-[450px] flex items-center justify-center border border-gold/20 rounded-2xl bg-black/40 backdrop-blur-md shadow-[0_0_30px_rgba(0,0,0,0.5)] transition-transform duration-500 hover:scale-105">
-                    <span className="font-display text-3xl text-gold animate-pulse">Coming Soon</span>
+                    <span className="font-display text-3xl text-gold animate-pulse">Revealing Soon</span>
                 </div>
             )}
             <h4 className="mt-6 font-display text-2xl md:text-3xl text-gold font-medium text-center tracking-wide">
@@ -82,8 +82,8 @@ const BandLineupSection = () => {
                 </motion.div>
 
                 <div className="flex flex-col w-full">
-                    <NightSection title="Curtain Raiser" date="28th March 2026" images={[curtainRaiserImg]} slots={2} bandNames={["Swastik", ""]} />
-                    <NightSection title="Eastern Night" date="2nd April 2026" images={[easternNight1Img, easternNight2Img]} slots={2} bandNames={["Pakshee", "Arabhi"]} />
+                    <NightSection title="Curtain Raiser" date="28th March 2026" images={["", curtainRaiserImg]} slots={2} bandNames={["", "Swastik"]} />
+                    <NightSection title="Eastern Night" date="2nd April 2026" images={[easternNight2Img, easternNight1Img]} slots={2} bandNames={["Arabhi", "Pakshee"]} />
                     <NightSection title="Western Night" date="3rd April 2026" images={[westernNightImg]} slots={2} bandNames={["The Paper Planes", ""]} />
                     <NightSection title="Reunion Night" date="4th April 2026" images={[]} slots={1} bandNames={[""]} />
                     <NightSection title="Final Night" date="5th April 2026" images={[]} slots={1} bandNames={[""]} />
