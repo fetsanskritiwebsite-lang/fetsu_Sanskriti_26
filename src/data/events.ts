@@ -70,7 +70,7 @@ export const events: EventData[] = [
       { name: "Arghya", phone: "+91 97480 95612" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLScipbqcS67Uj4v0jJjPa6y7k8I9N6cAAmnKqXdj8EURXBISag/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "jam-it",
@@ -208,7 +208,7 @@ export const events: EventData[] = [
       { name: "Adrita", phone: "+91 77973 10990" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLScAMMY7r4gMztWAE_hjaQTEYOwojP2U00M-iZbTUj9XNxzB1A/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "graffiti-wars",
