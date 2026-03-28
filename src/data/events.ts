@@ -126,7 +126,7 @@ export const events: EventData[] = [
       { name: "Abhash", phone: "+91 94313 21040" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSfl5hYhaxWm1ll62qDbmIJJQ5AzdmPEWT1Q7eiMHyssfX74ng/viewform?usp=preview",
+    reglink: "CLOSED",
   },
   {
     slug: "rendition",
@@ -153,7 +153,7 @@ export const events: EventData[] = [
       { name: "Adrija", phone: "+91 74398 49303" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSfXQqP486kNYRfOnxa_8nxUmZuo8LvALGTlBWAn6MbxtawmmA/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "moonwalk",
@@ -181,7 +181,7 @@ export const events: EventData[] = [
       { name: "Adrija", phone: "+91 98317 87232" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSdES2KYqbG35a3hlpBHalDxzKAEX8fKRdag2gCWCJf4JpphuA/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "ghungrooz",
@@ -231,7 +231,7 @@ export const events: EventData[] = [
       { name: "Krish", phone: "+91 78660 10143" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSeRpxEaiGsZ1trLG-wmUZdqAr5JHgEcZvGoJGS0NQM3R7wFDA/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "origami",
@@ -254,7 +254,7 @@ export const events: EventData[] = [
       { name: "Agniva", phone: "+91 97481 82727" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSdg4YU4wgg6OdW50QSfkcBljzX-AFKLJoMfQNmOJ1oCPV38RQ/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "sketchophile",
@@ -279,7 +279,7 @@ export const events: EventData[] = [
       { name: "Agniva", phone: "+91 97481 82727" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSe6lR2GV--Yybc1Kiq_U38TFVMA5bG0QyuTWoWrQxIZJdalUA/viewform?usp=preview",
+    reglink: "CLOSED",
   },
   {
     slug: "rangoli",
@@ -304,7 +304,7 @@ export const events: EventData[] = [
 
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSed5WEB8nDFK7V4w6lzAKVR51eWDu2hUC4KsHUBrwpgYt86Cg/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "t-shirt-face-poster-painting",
@@ -329,7 +329,7 @@ export const events: EventData[] = [
       { name: "Adarsh", phone: "+91 90625 56145" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSf1lUbNqwk7Fe-CnXseQyZiMBUMzqoIbz8jt23xBQe7VJQlTA/viewform?usp=header",
+    reglink: "CLOSED",
   },
 
   {
@@ -356,7 +356,7 @@ export const events: EventData[] = [
       { name: "Tanmay", phone: "+91 85094 00180" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLScQGtvJqbyw2IPzpuAuPYsrfvvJbCgU41DfkNdR3r8CMnsatw/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "shoot-at-sight",
@@ -381,7 +381,7 @@ export const events: EventData[] = [
       { name: "Srijan", phone: "+91 89189 92739" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSe10xOqMUCRCVigC6Bakzt5NWCl7ZjtRJPwbGPpZRe1a1hMzw/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "inquizzitive",
@@ -404,7 +404,7 @@ export const events: EventData[] = [
       { name: "Tanmay", phone: "+91 85094 00180" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSc72-3voe2bCmUlX00ZAxrHtTP9EtNcuM5e1KMtN6r8L4Ui5w/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "think-twice",
@@ -427,7 +427,7 @@ export const events: EventData[] = [
       { name: "Pritam", phone: "+91 98327 79410" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSdFwmj-3DMICnLVBfaiqmYthtWqAuxeozS8O2-0ocApgGmY5w/viewform?usp=preview",
+    reglink: "CLOSED",
   },
   {
     slug: "beat-box",
@@ -453,7 +453,7 @@ export const events: EventData[] = [
       { name: "Tanishq", phone: "+91 76019 80812" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSfhnxXWfNzK9FCFa-ugLuSTj1P5G6QxTvtv2IvhPlWVFTUNjw/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "rap-battle",
@@ -479,7 +479,7 @@ export const events: EventData[] = [
       { name: "Tanishq", phone: "+91 76019 80812" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSc6YNJtKtoEKj_zXsujsYtYxnVm2cTzkDzBYMOPRv17ehsySQ/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "creative-writing",
@@ -504,7 +504,7 @@ export const events: EventData[] = [
       { name: "Habibul", phone: "+91 86098 36953" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSd7eiJowSGjrSa8Wk9pqlLvu-KVIQpzmHrkpdCmgsQ2CFyj0A/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "guitar-wars",
@@ -527,7 +527,7 @@ export const events: EventData[] = [
       { name: "Puja", phone: "+91 79800 91693" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSeIQkEYuvGveh2zJYLeBvaF45PW5oDhEgeeySRBkjvG_ddukg/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "instrumental",
@@ -551,7 +551,7 @@ export const events: EventData[] = [
       { name: "Krish", phone: "+91 78660 10143" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSeQ8FPdEZ20zGh5kld-EibLjPe1tadMDBDBO7yqXr2LPZ5IJw/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "dance-bout",
@@ -575,7 +575,7 @@ export const events: EventData[] = [
       { name: "Neha", phone: "+91 74500 88680" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLScp6njXFwYccm7wQpAmjRClqvvcLIk3GX-ahWUSHNL81Lwgrw/viewform?usp=header",
+    reglink: "CLOSED",
   },
   {
     slug: "student-performance",
@@ -597,6 +597,6 @@ export const events: EventData[] = [
       { name: "Agniva", phone: "+91 97481 82727" }
     ],
     deadline: "TBA",
-    reglink: "https://docs.google.com/forms/d/e/1FAIpQLSesMRzFgOVjPolTvDcO1Eja5yKcln3gojAPg-HcrVbvEcD-UQ/viewform?usp=preview",
+    reglink: "CLOSED",
   }
 ];
