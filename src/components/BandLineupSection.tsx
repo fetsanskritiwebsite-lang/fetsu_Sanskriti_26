@@ -8,6 +8,7 @@ import easternNight2Img from "@/assets/performance/Eastern Night 2.jpeg";
 import westernNightImg from "@/assets/performance/Western Night.jpeg";
 import curtainraiser2Img from "@/assets/performance/equilibrium.jpeg";
 import western2Img from "@/assets/performance/arogya.jpeg";
+import reunionNightImg from "@/assets/performance/reunion night.jpeg";
 const BandLineupSection = () => {
     const ref = useRef<HTMLDivElement>(null);
     const inView = useInView(ref, { once: true, margin: "-100px" });
@@ -86,7 +87,7 @@ const BandLineupSection = () => {
                     <NightSection title="Curtain Raiser" date="28th March 2026" images={[curtainraiser2Img, curtainRaiserImg]} slots={2} bandNames={["Ekuil- i - brium", "Swastik"]} />
                     <NightSection title="Eastern Night" date="2nd April 2026" images={[easternNight2Img, easternNight1Img]} slots={2} bandNames={["Arabhi", "Pakshee"]} />
                     <NightSection title="Western Night" date="3rd April 2026" images={[westernNightImg, western2Img]} slots={2} bandNames={["The Paper Planes", "Arogya"]} />
-                    <NightSection title="Reunion Night" date="4th April 2026" images={[]} slots={1} bandNames={[""]} />
+                    <NightSection title="Reunion Night" date="4th April 2026" images={[reunionNightImg]} slots={1} bandNames={["Parikrama and Friends"]} />
                     <NightSection title="Final Night" date="5th April 2026" images={[]} slots={1} bandNames={[""]} />
                 </div>
             </div>
